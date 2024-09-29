@@ -30,6 +30,7 @@ async fn main() {
         .unwrap();
 }
 
+
 #[cfg(not(feature = "ssr"))]
 pub fn main() {
     // no client-side main function
